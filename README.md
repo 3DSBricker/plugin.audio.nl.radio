@@ -1,21 +1,26 @@
-[![GitHub release](https://img.shields.io/github/release/add-ons/plugin.audio.vrt.radio.svg)](https://github.com/add-ons/plugin.audio.vrt.radio/releases)
-[!![CI](https://github.com/add-ons/plugin.audio.vrt.radio/workflows/CI/badge.svg)](https://github.com/add-ons/plugin.audio.vrt.radio/actions?query=workflow:CI)
+[![GitHub release](https://img.shields.io/github/release/3dsbricker/plugin.audio.nl.radio.svg)](https://github.com/3dsbricker/plugin.audio.nl.radio/releases)
+[!![CI](https://github.com/3dsbricker/plugin.audio.nl.radio/workflows/CI/badge.svg)](https://github.com/3dsbricker/plugin.audio.nl.radio/actions?query=workflow:CI)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)](https://opensource.org/licenses/GPLv3)
-[![Contributors](https://img.shields.io/github/contributors/add-ons/plugin.audio.vrt.radio.svg)](https://github.com/add-ons/plugin.audio.vrt.radio/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/3dsbricker/plugin.audio.nl.radio.svg)](https://github.com/3dsbricker/plugin.audio.nl.radio/graphs/contributors)
 
-# VRT Radio Kodi addon
-**plugin.audio.vrt.radio** is a [Kodi](https://kodi.tv/) add-on for listening to all VRT radio streams.
+# Dutch Radio Kodi addon
+**plugin.audio.nl.radio** is a [Kodi](https://kodi.tv/) add-on for listening to Dutch (NPO/VRT) radio streams.
 
 ## Installing
-In Kodi, simply search for `VRT Radio`, and install the add-on.
+~~In Kodi, simply search for `VRT Radio`, and install the add-on.~~
 
-Alternatively, you can download a ZIP archive from the [GitHub releases](https://github.com/add-ons/plugin.audio.vrt.radio/releases)
+Alternatively, you can download a ZIP archive from the [GitHub releases](https://github.com/3dsbricker/plugin.audio.nl.radio/releases)
 and install it directly in Kodi using the **Install via Zip** option.
 
 ## Reporting issues
-You can report issues at [our GitHub project](https://github.com/add-ons/plugin.audio.vrt.radio).
+You can report issues at [our GitHub project](https://github.com/3dsbricker/plugin.audio.nl.radio).
 
 ## Releases
+
+### v0.2.0 (2023-06-15)
+- Forked original project, slightly more focussed on Dutch
+- Add Dutch radio channels
+- Prepare to support and seperate Dutch and Flemish channels
 
 ### v0.1.4 (2020-12-19)
 - Add Dutch translation

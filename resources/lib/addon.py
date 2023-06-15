@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # GNU General Public License v3.0 (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
-""" This is the actual VRT Radio audio plugin entry point """
+""" This is the actual Dutch Radio audio plugin entry point """
 
 from __future__ import absolute_import, division, unicode_literals
 
@@ -15,10 +15,10 @@ plugin = routing.Plugin()  # pylint: disable=invalid-name
 
 @plugin.route('/')
 def main_menu():
-    """The VRT Radio plugin main menu"""
+    """The Dutch Radio plugin main menu"""
     radio_items = []
     for channel in CHANNELS:
-
+        print(channel)
         if channel.get('aac_128'):
             url = channel.get('aac_128')
         else:

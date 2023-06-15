@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.vrt.radio" name="VRT Radio" version="0.1.4" provider-name="dagwieers">
+<addon id="plugin.audio.nl.radio" name="NL Radio" version="0.2.0" provider-name="Sudachi">
     <requires>
         <import addon="script.module.routing" version="0.2.0"/>
-        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="resources/lib/addon_entry.py">
         <provides>audio</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Listen to VRT Radio streams</summary>
-        <description lang="en_GB">With this addon you can browse and liste the VRT Radio streams.</description>
-        <summary lang="nl_NL">Luister naar VRT Radio streams</summary>
-        <description lang="nl_NL">Met deze addon kan je alle VRT Radio streams beluisteren.</description>
+        <summary lang="en_GB">Listen to Dutch/Flemish Radio streams</summary>
+        <description lang="en_GB">With this addon you can browse and listen to the NPO/VRT Radio streams.</description>
+        <summary lang="nl_NL">Luister naar NPO/VRT Radio streams</summary>
+        <description lang="nl_NL">Met deze addon kun je Nederlandse/Vlaamse (NPO/VRT) Radio streams beluisteren.</description>
         <language>en nl</language>
         <platform>all</platform>
         <license>GPL-3.0-only</license>
-        <website>https://github.com/add-ons/plugin.audio.vrt.radio/wiki</website>
-        <source>https://github.com/add-ons/plugin.audio.vrt.radio</source>
-        <forum>https://github.com/add-ons/plugin.audio.vrt.radio/issues</forum>
+        <website>https://github.com/3dsbricker/plugin.audio.nl.radio/wiki</website>
+        <source>https://github.com/3dsbricker/plugin.audio.nl.radio</source>
+        <forum>https://github.com/3dsbricker/plugin.audio.nl.radio/issues</forum>
         <news>
+v0.2.0 (2023-06-15)
+- Forked original project, slightly more focussed on Dutch
+- Add Dutch radio channels
+- Prepare to support and seperate Dutch and Flemish channels
+
 v0.1.4 (2020-12-19)
 - Add Dutch translation
 - Add additional channels
